@@ -8,8 +8,8 @@ body {
   margin: auto;
   border-radius: 3px;
   overflow: hidden;
+  //position: relative;
 }
-
 .img-c {
   width: 200px;
   height: 200px;
@@ -33,7 +33,7 @@ body {
 }
 
 .img-c {
-  transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+    transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
 }
 
 .img-c:hover .img-w {
@@ -46,6 +46,7 @@ body {
   height: 100% !important;
   position: absolute;
   z-index: 2;
+  //transform: translateX(-50%);
 }
 
 .img-c.postactive {
